@@ -1,7 +1,8 @@
-Approach:
+#Approach:
  Churn Prediction is Binary Classification Problem.
 
-Data Modelling and Model Selection is done in Four Steps :
+# Data Modelling and Model Selection is done in Four Steps :
+
  • Data-Preprocessing
  
  • Data Visualization
@@ -10,7 +11,9 @@ Data Modelling and Model Selection is done in Four Steps :
  
  • Machine Learning Algorithm (Modelling Part)
 
-Data Preprocessing:
+
+
+# Data Preprocessing:
 
   Perform data pre-processing wherever needed
   
@@ -28,7 +31,7 @@ Data Preprocessing:
  
  • And Dividing dataset into Categorical and Numerical Columns for Visualization.
 
-Data Visualization:
+# Data Visualization:
 
    • Derive some relevant insights out of the given data using different approaches
      (Such as using Seaborn/Matplotlib.)
@@ -43,7 +46,8 @@ Data Visualization:
    
    • Descriptive Analysis of Dataset
 
-Feature Engineering:
+
+# Feature Engineering:
 
    • In the DataSet, the Classes are Imbalance (it means the Class ‘0’ is Majority Class and
 Class ‘1’ is Minority Class). So to Deal with Imbalance Classes Problem the Sampling
@@ -53,12 +57,13 @@ Classes are approximately equal.
 
 • In the dataset there are two types of Columns:
 
-Categorical Columns
+## Categorical Columns
   • For Categorical Columns, applied LabelEncoder for Two Class Columns and for more
 than two applied OrdinalEncoder (Here OrdinalEncoder because the Categorical
 Columns has the data in a Order Form Like Income Column, Product Holdings etc).
 
-Numerical Columns
+## Numerical Columns
+
   • After Encoding Categorical Columns, check for MultiCollinearity. So the Age has VIF value > 5 which is Highly MultiCollinear.
   
   • And Also the Balance Column Contains Outliers. So to Overcome from these two aboveColumn the data is Normalize using the MinMaxScaler(Numerical Columns: Age,Balance). After Scaling Data the MutliCollinearity has low Values
@@ -74,7 +79,9 @@ contribute for the Target Column.
 
 • Take only the relevant attributes for building the Models.
 
-Model Selection :
+
+# Model Selection :
+
 • Build Model Using Logistic Regression, Gaussian Naïve Bayes, Decision Tree Classifier,
 Random Forest Classifier, XGB Classifier, Support Vector Machine, KNN individually
 
@@ -83,6 +90,7 @@ Score and with Best F1 (Macro) Evaluation Metrics.
 
 • And for Model Selection, Selecting the Model with High Prediction Score on Test Data
 which is Gaussian Naïve Bayes have Prediction Score of 0.6190472511
+
 
 
 From Above All Different Model, Gaussian Naïve Bayes and Logistic Regression are good
