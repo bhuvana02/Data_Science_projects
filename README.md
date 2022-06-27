@@ -18,8 +18,7 @@
 1.	[Linear Regression .ipynb](https://github.com/bhuvana02/Data_Science_Learning/tree/main/Machine_learning_algorithms/Linear%20Regression)
 
 •	[Hackathons](https://github.com/bhuvana02/Data_Science_Learning/tree/main/Hackathons)
-1.	[User_video_engagement_score (JOB_HACKATHON)](https://github.com/bhuvana02/Data_Science_Learning/tree/main/Hackathons/User_video_engagement_score%20(JOB_HACKATHON))
-2.	[customer_churn_prediction](https://github.com/bhuvana02/Data_Science_Learning/tree/main/Hackathons/customer_churn_prediction)
+1. #	[customer_churn_prediction](https://github.com/bhuvana02/Data_Science_Learning/tree/main/Hackathons/customer_churn_prediction)
 
 # Approach:(customer_churn_prediction)
  Churn Prediction is Binary Classification Problem.
