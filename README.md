@@ -21,7 +21,7 @@
 1.	[User_video_engagement_score (JOB_HACKATHON)](https://github.com/bhuvana02/Data_Science_Learning/tree/main/Hackathons/User_video_engagement_score%20(JOB_HACKATHON))
 2.	[customer_churn_prediction](https://github.com/bhuvana02/Data_Science_Learning/tree/main/Hackathons/customer_churn_prediction)
 
-# Approach:([customer_churn_prediction)
+# Approach:(customer_churn_prediction)
  Churn Prediction is Binary Classification Problem.
 
 # Data Modelling and Model Selection is done in Four Steps :
